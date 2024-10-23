@@ -3,8 +3,6 @@
 
 Building a HIPAA-compliant app involves careful planning to protect the privacy and security of health information. Below is a comprehensive guide to ensure compliance.
 
-## ![Understanding HIPAA](https://via.placeholder.com/800x200)
-
 ### **1. Understand HIPAA Requirements**
 To comply, developers must be familiar with the following:
 - **Privacy Rule**: Controls the use and disclosure of Protected Health Information (PHI).
@@ -15,8 +13,6 @@ To comply, developers must be familiar with the following:
 For a telehealth app, ensure video calls are encrypted, and only authorized healthcare providers can access patient data.
 
 ---
-
-## ![Risk Assessment](https://via.placeholder.com/800x200)
 
 ### **2. Conduct a Risk Assessment**
 Identify where PHI is stored, how it’s accessed, and any vulnerabilities that could lead to unauthorized exposure.
