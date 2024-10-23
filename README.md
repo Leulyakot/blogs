@@ -6,7 +6,7 @@ This repository provides detailed guides and best practices for building domain-
 ## Domains
 
 ### [Healthcare](https://github.com/Leulyakot/blogs/tree/master/healthcare)
-- **Guide:** How to Build a HIPAA-Compliant App
+- **Guide:** [How to Build a HIPAA-Compliant App](https://github.com/Leulyakot/blogs/blob/master/healthcare/HIPAA_Compliant_App_Development_Guide.md)
 
 ### Government
 - **Guide:** Coming Soon...
