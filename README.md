@@ -5,7 +5,7 @@ This repository provides detailed guides and best practices for building domain-
 
 ## Domains
 
-### [Healthcare](./HIPAA_Compliant_App_Guide_Mermaid.md)
+### [Healthcare](https://github.com/Leulyakot/blogs/tree/master/healthcare)
 - **Guide:** How to Build a HIPAA-Compliant App
 
 ### Government
