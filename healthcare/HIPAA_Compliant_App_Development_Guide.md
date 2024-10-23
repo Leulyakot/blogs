@@ -3,6 +3,8 @@
 
 Building a HIPAA-compliant app involves careful planning to protect the privacy and security of health information. Below is a comprehensive guide to ensure compliance.
 
+## ![Understanding HIPAA](sandbox:/mnt/data/security_audit_workflow.png)
+
 ### **1. Understand HIPAA Requirements**
 To comply, developers must be familiar with the following:
 - **Privacy Rule**: Controls the use and disclosure of Protected Health Information (PHI).
@@ -14,6 +16,8 @@ For a telehealth app, ensure video calls are encrypted, and only authorized heal
 
 ---
 
+## ![Risk Assessment](sandbox:/mnt/data/security_audit_workflow.png)
+
 ### **2. Conduct a Risk Assessment**
 Identify where PHI is stored, how it’s accessed, and any vulnerabilities that could lead to unauthorized exposure.
 
@@ -21,16 +25,11 @@ Identify where PHI is stored, how it’s accessed, and any vulnerabilities that 
 - Identify and mitigate vulnerabilities.
 
 ### **Diagram: Security Audit Workflow**
-```mermaid
-flowchart TD
-    A[Identify Data] --> B[Analyze Vulnerabilities]
-    B --> C[Mitigate Risks]
-    C --> D[Continuous Monitoring]
-```
+![Security Audit Workflow](sandbox:/mnt/data/security_audit_workflow.png)
 
 ---
 
-## ![Implement Security Safeguards](https://via.placeholder.com/800x200)
+## ![Implement Security Safeguards](sandbox:/mnt/data/role_based_access.png)
 
 ### **3. Implement Security Safeguards**
 #### Administrative Safeguards:
@@ -43,7 +42,7 @@ flowchart TD
 
 ---
 
-## ![Encryption](https://via.placeholder.com/800x200)
+## ![Encryption](sandbox:/mnt/data/security_audit_workflow.png)
 
 ### **4. Data Encryption**
 - **Encryption in Transit**: Use SSL/TLS for secure data transmission.
@@ -54,23 +53,18 @@ For a patient portal, ensure that every data exchange, including login, is encry
 
 ---
 
-## ![Access Control](https://via.placeholder.com/800x200)
+## ![Access Control](sandbox:/mnt/data/role_based_access.png)
 
 ### **5. Access Control**
 - Implement role-based access.
 - Enable strong password policies and MFA.
 
 ### **Diagram: Role-Based Access**
-```mermaid
-flowchart TD
-    A[Admin] --> |Full Access| D[Database]
-    B[Doctor] --> |Limited Access| D
-    C[Nurse] --> |Limited Access| D
-```
+![Role-Based Access](sandbox:/mnt/data/role_based_access.png)
 
 ---
 
-## ![Backup & Recovery](https://via.placeholder.com/800x200)
+## ![Backup & Recovery](sandbox:/mnt/data/continuous_monitoring.png)
 
 ### **6. Data Backup & Recovery**
 - Regularly back up encrypted data.
@@ -81,7 +75,7 @@ An EHR system should have automated daily backups with encrypted off-site storag
 
 ---
 
-## ![Secure Data Transmission](https://via.placeholder.com/800x200)
+## ![Secure Data Transmission](sandbox:/mnt/data/security_audit_workflow.png)
 
 ### **7. Secure Data Transmission**
 - Use secure protocols (e.g., HTTPS) for all communication.
@@ -93,7 +87,7 @@ An EHR system should have automated daily backups with encrypted off-site storag
 
 ---
 
-## ![Business Associate Agreements](https://via.placeholder.com/800x200)
+## ![Business Associate Agreements](sandbox:/mnt/data/role_based_access.png)
 
 ### **8. Business Associate Agreements (BAAs)**
 If a third-party service handles ePHI (e.g., cloud storage, analytics):
@@ -104,22 +98,18 @@ Before integrating a cloud storage provider, have them sign a BAA to ensure they
 
 ---
 
-## ![Audit & Monitoring](https://via.placeholder.com/800x200)
+## ![Audit & Monitoring](sandbox:/mnt/data/continuous_monitoring.png)
 
 ### **9. Audit & Monitoring**
 - Continuously monitor app activities for unauthorized access.
 - Perform regular audits to maintain compliance.
 
 ### **Diagram: Continuous Monitoring**
-```mermaid
-flowchart TD
-    A[User Activity] --> B[Monitoring System]
-    B --> C[Alert on Suspicious Activity]
-```
+![Continuous Monitoring](sandbox:/mnt/data/continuous_monitoring.png)
 
 ---
 
-## ![Training & Awareness](https://via.placeholder.com/800x200)
+## ![Training & Awareness](sandbox:/mnt/data/security_audit_workflow.png)
 
 ### **10. Training & Awareness**
 - Educate the development team on HIPAA rules.
